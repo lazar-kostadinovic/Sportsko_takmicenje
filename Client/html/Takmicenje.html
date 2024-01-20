@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takmicenja</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<div id="app">
+    <nav>
+        <ul>
+            <li><a href="Takmicenje.html">Takmicenja</a></li>
+            <li><a href="Utakmica.html">Utakmica</a></li>
+            <li><a href="Klub.html">Klub</a></li>
+            <li><a href="Tim.html">Tim</a></li>
+            <li><a href="Sport.html">Sport</a></li>
+            <li><a href="Takmicari.html">Takmicari</a></li>
+            <li><a href="Trener.html">Trener</a></li>
+        </ul>
+    </nav>
+
+    <h1>Takmicenja</h1>
+
+    <div>
+        <h2>Lista takmicenja</h2>
+        <ul id="takmicenjaList"></ul>
+    </div>
+
+    <div>
+        <h2>Create Takmicenje</h2>
+        <form id="createForm">
+            <label for="takmicenjeId">Id Takmicenja:</label>
+            <input type="text" name="takmicenjeId" required>
+            <label for="mestoOdrzavanja">Mesto odrzavanja:</label>
+            <input type="text" name="mestoOdrzavanja" required>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" required>
+            <label for="datumOd">Datum od:</label>
+            <input type="text" name="datumOd" required>
+            <label for="datumDo">Datum do:</label>
+            <input type="text" name="datumDo" required>
+            <button type="submit">Create Takmicenje</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Update Takmicenje</h2>
+        <form id="updateForm">
+
+            <label for="updateNaziv">Naziv:</label>
+            <input type="text" id="updateNaziv"/>
+
+            <button type="button" id="fetchTakmicenje">Prikazi podatke takmicenja</button>
+
+            <label for="updateMesto">Mesto:</label>
+            <input type="text" id="updateMesto" required>
+            <label for="updateDatumOd">Datum od:</label>
+            <input type="text" id="updateDatumOd">
+            <label for="updateDatumDo">Datum do:</label>
+            <input type="text" id="updateDatumDo">
+            <button type="submit">Update Takmicenje</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Prikaz utakmica na takmicenju</h2>
+        <form id="utakmicaForm">
+            <label for="naziv">Naziv takmicenja:</label>
+            <input type="text" id="naziv" required>
+
+            <button type="submit">Prikazi</button>
+            <label for="utakmice">Utakmice koje se odigravaju na takmicenju:(duplim klikom na utakmicu prikazite leaderboard utakmice)</label>
+            <select id="utakmice" multiple>
+            </select>
+     
+        </form>
+    </div>
+
+    <div>
+        <h2>Delete Takmicenje</h2>
+        <form id="deleteForm">
+            <label for="deleteTakmicenjeId">Naziv takmicenja:</label>
+            <input type="text" id="deleteTakmicenjeId" required>
+            <button type="submit">Delete Takmicenje</button>
+        </form>
+    </div>
+</div>
+
+<script src="../js/Takmicenje.js"></script>
+</body>
+</html>

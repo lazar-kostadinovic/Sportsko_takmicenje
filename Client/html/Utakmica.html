@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utakmica</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<div id="app">
+    <nav>
+        <ul>
+            <li><a href="Takmicenje.html">Takmicenja</a></li>
+            <li><a href="Utakmica.html">Utakmica</a></li>
+            <li><a href="Klub.html">Klub</a></li>
+            <li><a href="Tim.html">Tim</a></li>
+            <li><a href="Sport.html">Sport</a></li>
+            <li><a href="Takmicari.html">Takmicari</a></li>
+            <li><a href="Trener.html">Trener</a></li>
+        </ul>
+    </nav>
+    <h1>Utakmica</h1>
+
+    <div>
+        <h2>Kreiranje utakmice</h2>
+        <form id="createForm">
+            <label for="utakmicaId">Id Utakmice:</label>
+            <input type="text" name="utakmicaId" required>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" required>
+            <label for="datum">Datum:</label>
+            <input type="date" name="datum" required>
+            <label for="kolo">Kolo:</label>
+            <input type="text" name="kolo" required>
+            
+            <button type="submit">Dodaj</button>
+        </form>
+    </div>
+
+    <!-- <div>
+        <h2>Ažuriranje utakmice</h2>
+        <form id="updateForm">
+            <label for="updateNaziv">Naziv:</label>
+            <input type="text" id="updateNaziv" required>
+
+            <button type="button" id="fetchUtakmica">Prikazi podatke utakmice</button>
+
+            <label for="updateDatum">Datum:</label>
+            <input type="date" id="updateDatum" required>
+            <label for="updateKolo">Kolo:</label>
+            <input type="text" id="updateKolo" required>
+
+            <button type="submit">Ažuriraj</button>
+        </form>
+    </div> -->
+
+    <div>
+        <h2>Dodavanje timova</h2>
+        <form id="teamForm">
+            <label for="naziv">Naziv utakmice:</label>
+            <input type="text" name="naziv" required>
+          
+            <label for="teams">Izaberite tim koji dodajete:</label>
+            <select id="teams" multiple>
+             
+            </select>
+            <button type="submit">Dodaj</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Biranje sporta</h2>
+        <form id="sportForm">
+            <label for="naziv">Naziv utakmice:</label>
+            <input type="text" name="naziv" required>
+            <label for="sportSelect">Dostupni sportovi:</label>
+            <select id="sportSelect" name="sportId" required></select>
+            <button type="submit" id = "submitSport">Dodaj sport</button>
+        </form>
+    </div>
+
+
+    <div>
+        <h2>Brisanje utakmice</h2>
+        <form id="deleteForm">
+            <label for="deleteUtakmicaId">Naziv utakmice:</label>
+            <input type="text" id="deleteUtakmicaId" required>
+            <button type="submit">Obriši</button>
+        </form>
+    </div>
+</div>
+
+<script src="../js/Utakmica.js"></script>
+</body>
+</html>

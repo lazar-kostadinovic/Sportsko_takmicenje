@@ -1,0 +1,540 @@
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\Projekat baze-novo\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\baze poslednja verzija\Projekat baze\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\SportskoTakmicenjeFinal\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\anja2\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\anja poslednaj verzija redis\Sportsko Takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Anja\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+D:\Anja\Fakultet\4.Napredne Baze Podataka\NPB\sportsko takmicenje\sportsko takmicenje\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CopyComplete
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll

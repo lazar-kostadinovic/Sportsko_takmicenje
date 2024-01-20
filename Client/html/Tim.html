@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<div id="app">
+    <nav>
+        <ul>
+            <li><a href="Takmicenje.html">Takmicenja</a></li>
+            <li><a href="Utakmica.html">Utakmica</a></li>
+            <li><a href="Klub.html">Klub</a></li>
+            <li><a href="Tim.html">Tim</a></li>
+            <li><a href="Sport.html">Sport</a></li>
+            <li><a href="Takmicari.html">Takmicari</a></li>
+            <li><a href="Trener.html">Trener</a></li>
+        </ul>
+    </nav>
+    <h1>Tim</h1>
+    <div>
+        <h2>Kreiranje tima</h2>
+        <form id="createForm">
+            <label for="timId">Id Tima:</label>
+            <input type="text" name="timId" required>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" required>
+            <button type="submit">Dodaj</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Dodatne informacije o timu</h2>
+        <form id="updateForm">
+            <label for="naziv">Naziv tima:</label>
+            <input type="text" name="naziv" required>
+            <label for="sportSelect">Dostupni sportovi:</label>
+            <select id="sportSelect" name="sportId" required></select>
+            <button type="submit" id = "submitSport">Dodaj sport</button>
+            <label for="trenerSelect">Dostupni treneri:</label>
+            <select id="trenerSelect" name="trenerId" required></select>
+            <button type="submit" id="submitTrener">Dodaj trenera</button>
+            <label for="competitors">Dostpni takmicari:</label>
+            <select id="competitors" multiple>
+               
+            </select>
+            <button type="submit" id="submitTakmicar">Dodaj takmicara</button>
+        </form>
+    </div>
+
+    
+    <div>
+        <h2>Brisanje tima</h2>
+        <form id="deleteForm">
+            <label for="deleteTimName">Ime tima:</label>
+            <input type="text" id="deleteTimName" required>
+            <button type="submit">Obrisi</button>
+        </form>
+    </div>
+</div>
+
+<script src="../js/Tim.js"></script>
+</body>
+</html>

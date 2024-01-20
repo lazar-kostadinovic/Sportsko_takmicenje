@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klub</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<div id="app">
+    <nav>
+        <ul>
+            <li><a href="Takmicenje.html">Takmicenja</a></li>
+            <li><a href="Utakmica.html">Utakmica</a></li>
+            <li><a href="Klub.html">Klub</a></li>
+            <li><a href="Tim.html">Tim</a></li>
+            <li><a href="Sport.html">Sport</a></li>
+            <li><a href="Takmicari.html">Takmicari</a></li>
+            <li><a href="Trener.html">Trener</a></li>
+        </ul>
+    </nav>
+    <h1>Klub</h1>
+    <div>
+        <h2>Lista klubova</h2>
+        <ul id="klubList"></ul>
+    </div>
+
+    <div>
+        <h2>Kreiranje kluba</h2>
+        <form id="createForm">
+            <label for="klubId">Id Kluba:</label>
+            <input type="text" name="klubId" required>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" required>
+            <label for="adresa">Adresa:</label>
+            <input type="text" name="adresa" required>
+            <label for="godinaOsnivanja">Godina Osnivanja:</label>
+            <input type="number" name="godinaOsnivanja" required>
+            <label for="brojTelefona">Broj Telefona:</label>
+            <input type="text" name="brojTelefona" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <button type="submit">Dodaj</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Izmena informacija o klubu</h2>
+        <form id="updateForm">
+            <label for="updateNaziv">Naziv:</label>
+            <input type="text" id="updateNaziv" required>
+            <button type="button" id="fetchKlub">Prikazi podatke kluba</button>
+            <label for="updateAdresa">Adresa:</label>
+            <input type="text" id="updateAdresa">
+            <label for="updateBrojTelefona">Broj telefona:</label>
+            <input type="text" id="updateBrojTelefona">
+            <label for="updateEmail">Email:</label>
+            <input type="email" id="updateEmail">
+            <button type="submit">Izmeni</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Dodavanje timova</h2>
+        <form id="teamForm">
+            <label for="naziv">Naziv kluba:</label>
+            <input type="text" name="naziv" required>
+            <label for="teams">Izaberite tim koji dodajete:</label>
+            <select id="teams" multiple>
+            </select>
+            <button type="submit">Dodaj</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Brisanje kluba</h2>
+        <form id="deleteForm">
+            <label for="deleteKlubId">Naziv klub:</label>
+            <input type="text" id="deleteNaziv" required>
+            <button type="submit">Obrisi</button>
+        </form>
+    </div>
+</div>
+
+<script src="../js/Klub.js"></script>
+</body>
+</html>

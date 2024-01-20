@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportovi</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+
+<div id="app">
+    <nav>
+        <ul>
+            <li><a href="Takmicenje.html">Takmicenja</a></li>
+            <li><a href="Utakmica.html">Utakmica</a></li>
+            <li><a href="Klub.html">Klub</a></li>
+            <li><a href="Tim.html">Tim</a></li>
+            <li><a href="Sport.html">Sport</a></li>
+            <li><a href="Takmicari.html">Takmicari</a></li>
+            <li><a href="Trener.html">Trener</a></li>
+        </ul>
+    </nav>
+    <h1>Sportovi</h1>
+
+    <div>
+        <h2>Lista sportova</h2>
+        <ul id="sportoviList"></ul>
+    </div>
+
+    <div>
+        <h2>Create Sport</h2>
+        <form id="createForm">
+            <label for="SportId">Id sporta:</label>
+            <input type="text" name="SportId" required>
+            <label for="naziv">Naziv:</label>
+            <input type="text" name="naziv" required>
+            <label for="brIgraca">Broj igraca:</label>
+            <input type="text" name="brIgraca" required>
+            <button type="submit">Create Sport</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Update Sport</h2>
+        <form id="updateForm">
+            <label for="updateNaziv">Naziv:</label>
+            <input type="text" id="updateNaziv"/>
+            <button type="button" id="fetchSport">Prikazi podatke sporta</button>
+
+            <label for="updateBroj">Broj igraca:</label>
+            <input type="text" id="updateBroj" required>
+            <button type="submit">Update Sport</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Delete Sport</h2>
+        <form id="deleteForm">
+            <label for="deleteSportId">Naziv sporta:</label>
+            <input type="text" id="deleteSportId" required>
+            <button type="submit">Delete Sport</button>
+        </form>
+    </div>
+</div>
+
+<script src="../js/Sport.js"></script>
+</body>
+</html>

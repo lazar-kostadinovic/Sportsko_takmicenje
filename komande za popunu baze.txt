@@ -1,0 +1,224 @@
+CREATE (:Klub { Naziv: 'Divlji Sokoli', Adresa: 'Petrovićeva 1, Beograd', GodinaOsnivanja: 1945, BrojTelefona: '011/123-456', Email: 'info@divljisokoli.rs', KlubId: 'DS' })
+CREATE (:Klub { Naziv: 'Vulkan Vitezovi', Adresa: 'Obradovićeva 10, Beograd', GodinaOsnivanja: 1945, BrojTelefona: '011/789-012', Email: 'info@vulkanvitezovi.rs', KlubId: 'VV' })
+CREATE (:Klub { Naziv: 'Rapid Streljci', Adresa: 'Teslina 12, Novi Sad', GodinaOsnivanja: 1911, BrojTelefona: '+385 21 123 456', Email: 'info@rapidstreljci.rs', KlubId: 'RS' })
+CREATE (:Klub { Naziv: 'Olimpijsku Gromovi', Adresa: 'Milutina Milankovića 6, Kragujevac', GodinaOsnivanja: 1945, BrojTelefona: '011/789-012', Email: 'info@olimpijskigromovi.rs', KlubId: 'OG' })
+CREATE (:Klub { Naziv: 'Tornado Tigrovi', Adresa: 'Dragiše Mišovica 3, Niš', GodinaOsnivanja: 1911, BrojTelefona: '+385 21 123 456', Email: 'info@tornadotigrovi.rs', KlubId: 'TT' })
+
+CREATE (:Takmicar { JMBG: '0000000000001', Ime: 'Marko', Prezime: 'Marković', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Banjička 1, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000002', Ime: 'Ana', Prezime: 'Ivanović', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Milića Nikolića 3, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000003', Ime: 'Ivan', Prezime: 'Petrović', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Dušanova 6, Niš', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000004', Ime: 'Petar', Prezime: 'Stanojević', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Prvomajska 4, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000005', Ime: 'Lana', Prezime: 'Kostadinović', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Aleksandra Belića 12, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000006', Ime: 'Lazar', Prezime: 'Ristić', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Cara Dušana 3, Niš', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000007', Ime: 'Đorđe', Prezime: 'Đorđević', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Branka Ćopića 14, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000008', Ime: 'Jasmina', Prezime: 'Jovanović', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Raška 5, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000009', Ime: 'Filip', Prezime: 'Filipović', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Cara Uroša, Niš', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000010', Ime: 'Dušan', Prezime: 'Kostić', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Đerdapska 14, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000011', Ime: 'Jelena', Prezime: 'Marković', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Trg Slobode 13, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000012', Ime: 'Darko', Prezime: 'Petrović', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Davidova 14, Niš', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000013', Ime: 'Nikola', Prezime: 'Janković', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Branka Ćopića 14, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000014', Ime: 'Petra', Prezime: 'Jovanović', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Raška 5, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000015', Ime: 'Mladen', Prezime: 'Filipović', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Cara Uroša, Niš', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000016', Ime: 'Željko', Prezime: 'Kostić', DatumRodjenja: '1985-01-01', BrojTelefona: '+381 64 123 4567', Pol: 'Muški', Adresa: 'Đerdapska 14, Beograd', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000017', Ime: 'Dragana', Prezime: 'Marković', DatumRodjenja: '1995-02-02', BrojTelefona: '+381 65 987 6543', Pol: 'Ženski', Adresa: 'Trg Slobode 13, Novi Sad', Drzava: 'Srbija' })
+CREATE (:Takmicar { JMBG: '0000000000018', Ime: 'Uroš', Prezime: 'Petrović', DatumRodjenja: '1988-03-03', BrojTelefona: '+381 60 111 2222', Pol: 'Muški', Adresa: 'Davidova 14, Niš', Drzava: 'Srbija' })
+
+CREATE (:Sport { SportId: '1', Naziv: 'Košarka', BrojIgraca: '3' })
+CREATE (:Sport { SportId: '2', Naziv: 'Fudbal', BrojIgraca: '3' })
+CREATE (:Sport { SportId: '3', Naziv: 'Odbojka', BrojIgraca: '3' })
+CREATE (:Sport { SportId: '4', Naziv: 'Rukomet', BrojIgraca: '3' })
+
+CREATE (:Takmicenje { TakmicenjeId: '1', MestoOdrzavanja: 'Niš', Naziv: 'Olimpijada izazova', DatumOd: '2023-06-06', DatumDo: '2023-06-10' })
+CREATE (:Takmicenje { TakmicenjeId: '2', MestoOdrzavanja: 'Beograd', Naziv: 'Supersprint spektakl', DatumOd: '2023-08-18', DatumDo: '2023-08-25' })
+CREATE (:Takmicenje { TakmicenjeId: '3', MestoOdrzavanja: 'Novi Sad', Naziv: 'Ekstremni maraton', DatumOd: '2023-12-25', DatumDo: '2023-12-31' })
+
+CREATE(:Tim{Id: '1', Naziv: 'Olimpijski Osvajači' })
+CREATE(:Tim{Id: '2', Naziv: 'Turbo Tornado' })
+CREATE(:Tim{Id: '3', Naziv: 'Adrenalinski Atlasi' })
+CREATE(:Tim{Id: '4', Naziv: 'Brzi Blitz' })
+CREATE(:Tim{Id: '5', Naziv: 'Dinamički Divljaci' })
+CREATE(:Tim{Id: '6', Naziv: 'Šampionski Sokoći' })
+
+CREATE (:Trener { JMBG: '0000000000019', Ime: 'Anja', Prezime: 'Stanojević', DatumRodjenja: '1999-24-02', BrojTelefona: '+381 61 458 5698', Pol: 'Ženski', Adresa: 'Nikole Tesle 1, Niš', Drzava: 'Srbija' })
+CREATE (:Trener { JMBG: '0000000000020', Ime: 'Boban', Prezime: 'Petrović', DatumRodjenja: '1981-15-08', BrojTelefona: '+381 60 124 4589', Pol: 'Muški', Adresa: 'Jugovićeva 2, Niš', Drzava: 'Srbija' })
+CREATE (:Trener { JMBG: '0000000000021', Ime: 'Dragan', Prezime: 'Nikolić', DatumRodjenja: '1972-06-16', BrojTelefona: '+381 61 789 4521', Pol: 'Muški', Adresa: 'Oblićev Venac 34, Niš', Drzava: 'Srbija' })
+CREATE (:Trener { JMBG: '0000000000022', Ime: 'Lidija', Prezime: 'Marković', DatumRodjenja: '1971-04-21', BrojTelefona: '+381 69 135 4865', Pol: 'Ženski', Adresa: 'Knjaževačka 12, Niš', Drzava: 'Srbija' })
+CREATE (:Trener { JMBG: '0000000000023', Ime: 'Nikolina', Prezime: 'Krstić', DatumRodjenja: '1969-06-25', BrojTelefona: '+381 62 878 1236', Pol: 'Ženski', Adresa: 'Dušanova 12, Niš', Drzava: 'Srbija' })
+CREATE (:Trener { JMBG: '0000000000024', Ime: 'Veljko', Prezime: 'Đorđević', DatumRodjenja: '1985-01-12', BrojTelefona: '+381 64 785 1235', Pol: 'Muški', Adresa: 'Voždova 1, Niš', Drzava: 'Srbija' })
+
+CREATE(:Utakmica{UtakmicaId: '1', Naziv: 'OO-TT', Datum: '2023-06-06', Kolo: 'I' })
+CREATE(:Utakmica{UtakmicaId: '2', Naziv: 'AA-BB', Datum: '2023-08-18', Kolo: 'I' })
+CREATE(:Utakmica{UtakmicaId: '3', Naziv: 'DD-ŠS', Datum: '2023-12-25', Kolo: 'I' })
+
+CREATE(:Rezultat{RezultatId: '1', Poeni: '10' })
+CREATE(:Rezultat{RezultatId: '2', Poeni: '8' })
+CREATE(:Rezultat{RezultatId: '3', Poeni: '12' })
+CREATE(:Rezultat{RezultatId: '4', Poeni: '3' })
+CREATE(:Rezultat{RezultatId: '5', Poeni: '3' })
+CREATE(:Rezultat{RezultatId: '6', Poeni: '13' })
+
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '1', Pobede: 0 })
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '2', Pobede: 0 })
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '3', Pobede: 0 })
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '4', Pobede: 0 })
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '5', Pobede: 0 })
+CREATE(:RezultatTakmicenja{RezultatTakmicenjaId: '6', Pobede: 0 })
+
+MATCH (k:Klub), (t:Tim)
+WHERE 
+  (k.KlubId = 'DS' AND t.Id = '1') OR
+  (k.KlubId = 'VV' AND t.Id = '2') OR
+  (k.KlubId = 'RS' AND t.Id = '3') OR
+  (k.KlubId = 'OG' AND t.Id = '4') OR
+  (k.KlubId = 'TT' AND t.Id = '5') OR
+  (k.KlubId = 'DS' AND t.Id = '6')
+MERGE (k)-[:IMA_TIM]->(t)
+
+MATCH (t:Takmicar), (s:Sport)
+WHERE (t.JMBG = '0000000000001' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000002' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000003' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000004' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000005' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000006' AND s.SportId = '1') OR
+      (t.JMBG = '0000000000007' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000008' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000009' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000010' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000011' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000012' AND s.SportId = '2') OR
+      (t.JMBG = '0000000000013' AND s.SportId = '3') OR
+      (t.JMBG = '0000000000014' AND s.SportId = '3') OR
+      (t.JMBG = '0000000000015' AND s.SportId = '3') OR
+      (t.JMBG = '0000000000016' AND s.SportId = '3') OR
+      (t.JMBG = '0000000000017' AND s.SportId = '3') OR
+      (t.JMBG = '0000000000018' AND s.SportId = '3')
+MERGE (t)-[:TAKMICI_SE_U]->(s)
+
+
+
+MATCH (takmicenje:Takmicenje), (utakmica:Utakmica)
+WHERE (takmicenje.TakmicenjeId = '1' AND utakmica.UtakmicaId = '1') OR
+      (takmicenje.TakmicenjeId = '2' AND utakmica.UtakmicaId = '2') OR
+      (takmicenje.TakmicenjeId = '3' AND utakmica.UtakmicaId = '3')
+MERGE (takmicenje)-[:ODRZAVA_SE]->(utakmica)
+
+
+MATCH (t:Tim), (sport:Sport)
+WHERE (t.Id = '1' AND sport.SportId = '1') OR
+      (t.Id = '2' AND sport.SportId = '1') OR
+      (t.Id = '3' AND sport.SportId = '2') OR
+      (t.Id = '4' AND sport.SportId = '2') OR
+      (t.Id = '5' AND sport.SportId = '3') OR
+      (t.Id = '6' AND sport.SportId = '3')
+MERGE (t)-[:TIM_ZA_SPORT]->(sport)
+
+
+MATCH (t:Tim), (takmicenje:Takmicenje)
+WHERE (t.Id = '1' AND takmicenje.TakmicenjeId = '1') OR
+      (t.Id = '2' AND takmicenje.TakmicenjeId = '1') OR
+      (t.Id = '3' AND takmicenje.TakmicenjeId = '2') OR
+      (t.Id = '4' AND takmicenje.TakmicenjeId = '2') OR
+      (t.Id = '5' AND takmicenje.TakmicenjeId = '3') OR
+      (t.Id = '6' AND takmicenje.TakmicenjeId = '3')
+MERGE (t)-[:TIM_IMA_TAKMICENJA]->(takmicenje)
+
+
+MATCH (t:Tim), (takmicar:Takmicar)
+WHERE 
+  (t.Id = '1' AND (takmicar.JMBG IN ['0000000000001', '0000000000002', '0000000000003'])) OR
+  (t.Id = '2' AND (takmicar.JMBG IN ['0000000000004', '0000000000005', '0000000000006'])) OR
+  (t.Id = '3' AND (takmicar.JMBG IN ['0000000000007', '0000000000008', '0000000000009'])) OR
+  (t.Id = '4' AND (takmicar.JMBG IN ['0000000000010', '0000000000011', '0000000000012'])) OR
+  (t.Id = '5' AND (takmicar.JMBG IN ['0000000000013', '0000000000014', '0000000000015'])) OR
+  (t.Id = '6' AND (takmicar.JMBG IN ['0000000000016', '0000000000017', '0000000000018']))
+MERGE (t)-[:TIM_IMA_TAKMICARE]->(takmicar)
+
+
+MATCH (t:Trener), (sport:Sport)
+WHERE 
+  (t.JMBG = '0000000000019' AND sport.SportId = '1') OR
+  (t.JMBG = '0000000000020' AND sport.SportId = '1') OR
+  (t.JMBG = '0000000000021' AND sport.SportId = '2') OR
+  (t.JMBG = '0000000000022' AND sport.SportId = '2') OR
+  (t.JMBG = '0000000000023' AND sport.SportId = '3') OR
+  (t.JMBG = '0000000000024' AND sport.SportId = '3')
+MERGE (t)-[:TRENER_ZA_SPORT]->(sport)
+
+
+MATCH (t:Trener), (tim:Tim)
+WHERE 
+  (t.JMBG = '0000000000019' AND tim.Id = '1') OR
+  (t.JMBG = '0000000000020' AND tim.Id = '2') OR
+  (t.JMBG = '0000000000021' AND tim.Id = '3') OR
+  (t.JMBG = '0000000000022' AND tim.Id = '4') OR
+  (t.JMBG = '0000000000023' AND tim.Id = '5') OR
+  (t.JMBG = '0000000000024' AND tim.Id = '6')
+MERGE (t)-[:TRENER_ZA_TIM]->(tim)
+
+
+MATCH (u:Utakmica), (t:Tim)
+WHERE 
+  (u.UtakmicaId = '1' AND (t.Id = '1' OR t.Id = '2')) OR
+  (u.UtakmicaId = '2' AND (t.Id = '3' OR t.Id = '4')) OR
+  (u.UtakmicaId = '3' AND (t.Id = '5' OR t.Id = '6'))
+MERGE (u)-[:UTAKMICA_IMA_TIMOVE]->(t)
+
+
+MATCH (u:Utakmica), (r:Rezultat)
+WHERE 
+  (u.UtakmicaId = '1' AND r.RezultatId = '1') OR
+  (u.UtakmicaId = '2' AND r.RezultatId = '2') OR
+  (u.UtakmicaId = '3' AND r.RezultatId = '3')
+MERGE (u)-[:UTAKMICA_IMA_REZULTATE]->(r)
+
+
+MATCH (u:Utakmica), (s:Sport)
+WHERE 
+  (u.UtakmicaId = '1' AND s.SportId = '1') OR
+  (u.UtakmicaId = '2' AND s.SportId = '2') OR
+  (u.UtakmicaId = '3' AND s.SportId = '3')
+MERGE (u)-[:UTAKMICA_IMA_SPORT]->(s)
+
+
+MATCH (r:Rezultat), (t:Tim)
+WHERE 
+  (r.RezultatId = '1' AND t.Id = '1') OR
+  (r.RezultatId = '2' AND t.Id = '2') OR
+  (r.RezultatId = '3' AND t.Id = '3') OR
+  (r.RezultatId = '4' AND t.Id = '4') OR
+  (r.RezultatId = '5' AND t.Id = '5') OR
+  (r.RezultatId = '6' AND t.Id = '6')
+MERGE (r)-[:REZULTAT_IMA_TIM]->(t)
+
+
+MATCH (r:Rezultat), (u:Utakmica)
+WHERE 
+  (r.RezultatId = '1' AND u.UtakmicaId = '1') OR
+  (r.RezultatId = '2' AND u.UtakmicaId = '1') OR
+  (r.RezultatId = '3' AND u.UtakmicaId = '2') OR
+  (r.RezultatId = '4' AND u.UtakmicaId = '2') OR
+  (r.RezultatId = '5' AND u.UtakmicaId = '3') OR
+  (r.RezultatId = '6' AND u.UtakmicaId = '3')
+MERGE (r)-[:REZULTAT_IMA_UTAKMICA]->(u)
+
+MATCH (r:RezultatTakmicenja), (t:Tim)
+WHERE 
+  (r.RezultatTakmicenjaId = '1' AND t.Id = '1') OR
+  (r.RezultatTakmicenjaId = '2' AND t.Id = '2') OR
+  (r.RezultatTakmicenjaId = '3' AND t.Id = '3') OR
+  (r.RezultatTakmicenjaId = '4' AND t.Id = '4') OR
+  (r.RezultatTakmicenjaId = '5' AND t.Id = '5') OR
+  (r.RezultatTakmicenjaId = '6' AND t.Id = '6')
+MERGE (r)-[:POBEDE_ZA_TIM]->(t)
+
+
+MATCH (r:RezultatTakmicenja), (t:Takmicenje)
+WHERE 
+  (r.RezultatTakmicenjaId = '1' AND t.TakmicenjeId = '1') OR
+  (r.RezultatTakmicenjaId = '2' AND t.TakmicenjeId = '1') OR
+  (r.RezultatTakmicenjaId = '3' AND t.TakmicenjeId = '2') OR
+  (r.RezultatTakmicenjaId = '4' AND t.TakmicenjeId = '2') OR
+  (r.RezultatTakmicenjaId = '5' AND t.TakmicenjeId = '3') OR
+  (r.RezultatTakmicenjaId = '6' AND t.TakmicenjeId = '3')
+MERGE (r)-[:POBEDE_TIMA_NA_TAKMICENJU]->(t)
