@@ -538,3 +538,4 @@ C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Tak
 C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
 C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
 C:\Users\Anja\Desktop\baza poslednja verzija\baza poslednja verzija\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.sourcelink.json

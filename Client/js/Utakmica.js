@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     event.preventDefault();
     const formData = new FormData(createForm);
     const utakmicaData = {
+      UtakmicaId: formData.get("utakmicaId"),
       Naziv: formData.get("naziv"),
       Datum: formData.get("datum"),
       Kolo: formData.get("kolo"),
@@ -29,22 +30,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function createUtakmica(utakmicaData) {
     const response = await fetch(
-      `http://localhost:5064/api/Utakmica/create-utakmica/${utakmicaData.Naziv}/${utakmicaData.Datum}/${utakmicaData.Kolo}`,
+      "http://localhost:5064/api/Utakmica/create-utakmica",
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify(utakmicaData),
       }
     );
-  
-    const rawData = await response.text(); 
-    console.log("Raw Data:", rawData);
+    const data = await response.json();
+    console.log("Utakmica created:", data);
 
-    dodajTakmicenjeUtakmici(rawData, takmicenjeId);
-    
+    await dodajTakmicenjeUtakmici(utakmicaData.UtakmicaId, takmicenjeId);
+    console.log(utakmicaData.UtakmicaId, takmicenjeId);
   }
-  
 
   async function dodajTakmicenjeUtakmici(idUtakmice, idTakmicenja) {
     const response = await fetch(
@@ -69,19 +69,12 @@ document.addEventListener("DOMContentLoaded", function () {
       return null;
     }
   }
+
   deleteForm.addEventListener("submit", async function (event) {
     event.preventDefault();
-    const utakmicaName = document.getElementById("deleteUtakmicaId").value;
-    console.log(utakmicaName);
-
-    const utakmica = await getUtakmicaByName(utakmicaName);
-
-    if (!utakmica) {
-      console.error(`Sport with name ${utakmicaName} not found.`);
-      return;
-    }
-
-    await deleteUtakmica(utakmica.utakmicaId);
+    const formData = new FormData(deleteForm);
+    const utakmicaId = formData.get("deleteUtakmicaId");
+    await deleteUtakmica(utakmicaId);
     deleteForm.reset();
   });
 
