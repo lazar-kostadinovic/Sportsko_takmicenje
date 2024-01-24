@@ -84,34 +84,13 @@ public partial class Neo4jService
     }
 
          public async Task<bool> AddTimToRezultatAsync(string rezultatid, string timid)
-    {
-        try
-        {
-            using (var session = _driver.AsyncSession())
-            {
-                var query = "MATCH (r:Rezultat), (t:Tim) WHERE r.RezultatId = $rezultatid AND t.Id = $timid MERGE (r)-[:REZULTAT_IMA_TIM]->(t)";
-                var parameters = new { rezultatid, timid };
-
-                var cursor = await session.RunAsync(query, parameters);
-
-                return cursor.ConsumeAsync().Result.Counters.RelationshipsCreated > 0;
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error: {ex.Message}");
-            return false;
-        }
-    }
-
-         public async Task<bool> AddUtakmicaToRezultatAsync(string rezultatid, string utakmicaId)
         {
             try
             {
                 using (var session = _driver.AsyncSession())
                 {
-                    var query = "MATCH (r:Rezultat), (u:Utakmica) WHERE r.RezultatId = $rezultatid AND u.UtakmicaId = $utakmicaid MERGE (r)-[:REZULTAT_IMA_UTAKMICA]->(u)";
-                    var parameters = new { rezultatid, utakmicaId };
+                    var query = "MATCH (r:Rezultat), (t:Tim) WHERE r.RezultatId = $rezultatid AND t.Id = $timid MERGE (r)-[:REZULTAT_IMA_TIM]->(t)";
+                    var parameters = new { rezultatid, timid };
 
                     var cursor = await session.RunAsync(query, parameters);
 
@@ -125,6 +104,29 @@ public partial class Neo4jService
             }
         }
 
+        public async Task<bool> AddUtakmicaToRezultatAsync(string rezultatId, string utakmicaId)
+        {
+            try
+            {
+                using (var session = _driver.AsyncSession())
+                {
+                    var query = "MATCH (r:Rezultat), (u:Utakmica) WHERE r.RezultatId = $rezultatid AND u.UtakmicaId = $utakmicaid MERGE (r)-[:REZULTAT_IMA_UTAKMICA]-(u)";
+                    var parameters = new { rezultatid = rezultatId, utakmicaid = utakmicaId };
+
+                    var cursor = await session.RunAsync(query, parameters);
+
+                    var resultSummary = await cursor.ConsumeAsync();
+                    return resultSummary.Counters.RelationshipsCreated > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return false;
+            }
+        }
+
+
 
 
 
@@ -135,7 +137,8 @@ public partial class Neo4jService
         {
             using (var session = _driver.AsyncSession())
             {
-                var query = "MATCH (r:Rezultat)-[:REZULTAT_IMA_TIM]->(t:Tim)<-[:UTAKMICA_IMA_TIMOVE]-(u:Utakmica) WHERE u.UtakmicaId = $utakmicaId AND t.Id = $timId RETURN r";
+                //var query = "MATCH (r:Rezultat)-[:REZULTAT_IMA_TIM]->(t:Tim)<-[:UTAKMICA_IMA_TIMOVE]-(u:Utakmica) WHERE u.UtakmicaId = $utakmicaId AND t.Id = $timId RETURN r";
+                 var query = "MATCH (t:Tim)-[:REZULTAT_IMA_TIM]-(r:Rezultat)-[:REZULTAT_IMA_UTAKMICA]-(u:Utakmica) WHERE u.UtakmicaId = $utakmicaId AND t.Id = $timId RETURN r";
                 var parameters = new { utakmicaId, timId };
 
                 var cursor = await session.RunAsync(query, parameters);

@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const button3 = document.createElement("button");
             button3.textContent = "Dodaj rezultat";
             button3.addEventListener("click", async () => {
-              dodajRezultat(takmicenje.takmicenjeId);
+              dodajRezultat(takmicenje.takmicenjeId,poeni1.value, poeni2. value,utakmica.utakmicaId);
             });
 
             utakmiceList.appendChild(utakmicaItem);
@@ -388,16 +388,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  async function dodajRezultat(takmicenjeId) {
+  async function dodajRezultat(takmicenjeId,poeniI,poeniII,utakmicaId) {
     try {
-      const poeniI = document.getElementById("poeni1").value;
-      const poeniII = document.getElementById("poeni2").value;
-      const utakmicaIdsResponse = await fetch(
-        `http://localhost:5064/api/Takmicenje/get-utakmiceID/${takmicenjeId}`
-      );
-      const utakmicaIds = await utakmicaIdsResponse.json();
+   //   const poeniI = document.getElementById("poeni1").value;
+   //   const poeniII = document.getElementById("poeni2").value;
+       //console.log(idUtakmice);
 
-      for (const utakmicaId of utakmicaIds) {
+
+      
         const timIdsResponse = await fetch(
           `http://localhost:5064/api/Utakmica/teamIds/${utakmicaId}`
         );
@@ -423,15 +421,14 @@ document.addEventListener("DOMContentLoaded", function () {
               method: "POST",
             }
           );
-          const increaseWinsResponse = await fetch(
-            `http://localhost:5064/api/LeaderboardTakmicenje/${utakmicaId}`,
-            {
-              method: "POST",
-            }
-          );
-          const success = await increaseWinsResponse.json();
-          console.log(`Success for match ${utakmicaId}: ${success}`);
-        }
+          // const increaseWinsResponse = await fetch(
+          //   `http://localhost:5064/api/LeaderboardTakmicenje/${utakmicaId}`,
+          //   {
+          //     method: "POST",
+          //   }
+          // );
+          // const success = await increaseWinsResponse.json();
+          console.log(`Success for match ${utakmicaId}`);
       }
       console.log("Rezultati dodati");
     } catch (error) {

@@ -2911,11 +2911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lazar\\Desktop\\Sportsko Takmicenje\\Sportsko Takmicenje.csproj",
+      "projectUniqueName": "C:\\Users\\Lazar\\Desktop\\Sportsko_takmicenje-master\\Sportsko Takmicenje.csproj",
       "projectName": "Sportsko Takmicenje",
-      "projectPath": "C:\\Users\\Lazar\\Desktop\\Sportsko Takmicenje\\Sportsko Takmicenje.csproj",
+      "projectPath": "C:\\Users\\Lazar\\Desktop\\Sportsko_takmicenje-master\\Sportsko Takmicenje.csproj",
       "packagesPath": "C:\\Users\\Lazar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lazar\\Desktop\\Sportsko Takmicenje\\obj\\",
+      "outputPath": "C:\\Users\\Lazar\\Desktop\\Sportsko_takmicenje-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
