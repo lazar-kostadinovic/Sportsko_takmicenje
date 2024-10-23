@@ -16,6 +16,6 @@ Nakon unosa komandi potrebno je pokretnuti Neo4j bazu.
 
 Osim toga potrebni su i pokrenuti Redis server kao i Redis klijent koji se koristi za kreiranje rang liste.
 
-# Start aplikacije 
+# Pokretanje aplikacije 
 Aplikaciju pokrećmo iz terminala pomoću dotnet watch run komande a nakon toga mozemo da otvorimo Client->html->Klub.html u pretrazivaču.
 
