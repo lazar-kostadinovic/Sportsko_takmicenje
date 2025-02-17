@@ -25,16 +25,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
   createForm.addEventListener("submit", async function (event) {
     event.preventDefault();
+
+    const sportId = Date.now();
+
     const formData = new FormData(createForm);
     const sportData = {
-      SportId: formData.get("SportId"),
+      SportId: sportId.toString(),
       Naziv: formData.get("naziv"),
       brojIgraca: formData.get("brIgraca"),
     };
+
     await createSport(sportData);
     await displaySportoviList();
     createForm.reset();
   });
+
 
   async function createSport(sportData) {
     const response = await fetch(

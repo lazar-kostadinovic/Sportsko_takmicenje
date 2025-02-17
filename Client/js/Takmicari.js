@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const headerRow = document.createElement("tr");
     for (let key in takmicari[0]) {
-      if (key !== "sport" && key !== "tim") {
+      if (key !== "tim" && key !== "sportovi") {
         const th = document.createElement("th");
         th.innerHTML = key;
         headerRow.append(th);
@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       listaTakmicara.append(tr);
     });
   }
+
   async function getTakmicari() {
     const response = await fetch(
       "http://localhost:5064/api/Takmicar/get-all-takmicar"
@@ -173,6 +174,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       pol: formData.get("pol"),
       adresa: formData.get("adresa"),
       drzava: formData.get("drzava"),
+      sportovi: formData.get("sportovi")
     };
     kreairajTakmicara(takmicar);
   });

@@ -112,13 +112,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     return data;
   }
 
-  async function getTreneri() {
-    const response = await fetch(
-      "http://localhost:5064/api/Trener/get-all-trener"
-    );
-    const data = await response.json();
-    return data;
-  }
 
   async function kreairajTrenera(trener) {
     const response = await fetch(

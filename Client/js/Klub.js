@@ -25,9 +25,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   createForm.addEventListener("submit", async function (event) {
     event.preventDefault();
+    const klubId = Date.now();
     const formData = new FormData(createForm);
     const klubData = {
-      KlubId: formData.get("klubId"),
+      KlubId: klubId.toString(),
       Naziv: formData.get("naziv"),
       Adresa: formData.get("adresa"),
       GodinaOsnivanja: formData.get("godinaOsnivanja"),

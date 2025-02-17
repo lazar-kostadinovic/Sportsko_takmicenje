@@ -578,3 +578,43 @@ C:\Users\Lazar\Desktop\Sportsko_takmicenje-master\obj\Debug\net7.0\refint\Sports
 C:\Users\Lazar\Desktop\Sportsko_takmicenje-master\obj\Debug\net7.0\Sportsko Takmicenje.pdb
 C:\Users\Lazar\Desktop\Sportsko_takmicenje-master\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
 C:\Users\Lazar\Desktop\Sportsko_takmicenje-master\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\appsettings.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.exe
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.deps.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.runtimeconfig.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Neo4j.Driver.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Neo4jClient.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\StackExchange.Redis.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.AssemblyReference.cache
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfoInputs.cache
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.AssemblyInfo.cs
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.csproj.CoreCompileInputs.cache
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.sourcelink.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.Sportsko Takmicenje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.build.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Sportsko Takmicenje.props
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\scopedcss\bundle\Sportsko Takmicenje.styles.css
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko.E899D884.Up2Date
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\refint\Sportsko Takmicenje.dll
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.pdb
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\Sportsko Takmicenje.genruntimeconfig.cache
+C:\Users\Lazar\Desktop\Projekti\Sportsko Takmicenje\obj\Debug\net7.0\ref\Sportsko Takmicenje.dll

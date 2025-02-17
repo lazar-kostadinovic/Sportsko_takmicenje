@@ -17,9 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   createForm.addEventListener("submit", async function (event) {
     event.preventDefault();
+    const utakmicaId = Date.now();
     const formData = new FormData(createForm);
     const utakmicaData = {
-      UtakmicaId: formData.get("utakmicaId"),
+      UtakmicaId: utakmicaId.toString(),
       Naziv: formData.get("naziv"),
       Datum: formData.get("datum"),
       Kolo: formData.get("kolo"),

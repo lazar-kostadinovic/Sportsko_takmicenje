@@ -12,8 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
   createForm.addEventListener("submit", async function (event) {
     event.preventDefault();
     const formData = new FormData(createForm);
+    const timId = Date.now();
     const timData = {
-      Id: formData.get("timId"),
+      Id: timId.toString(),
       Naziv: formData.get("naziv"),
     };
     await createTim(timData);

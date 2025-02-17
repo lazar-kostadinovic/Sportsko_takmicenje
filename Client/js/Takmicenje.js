@@ -53,7 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const button3 = document.createElement("button");
             button3.textContent = "Dodaj rezultat";
             button3.addEventListener("click", async () => {
-              dodajRezultat(takmicenje.takmicenjeId,poeni1.value, poeni2. value,utakmica.utakmicaId);
+              dodajRezultat(
+                takmicenje.takmicenjeId,
+                poeni1.value,
+                poeni2.value,
+                utakmica.utakmicaId
+              );
             });
 
             utakmiceList.appendChild(utakmicaItem);
@@ -73,8 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
       btnPrikaziLeaderboard.addEventListener("click", async () => {
         const novaStranicaURL = `RezultatTakmicenja.html?takmicenjeId=${takmicenje.takmicenjeId}`;
         window.location.href = novaStranicaURL;
-        // prikaziLeaderboardTakmicenja(takmicenje.takmicenjeId);
-        // azurirajLeaderboard(takmicenje.takmicenjeId);
       });
 
       li.appendChild(btnDodajUtakmicu);
@@ -95,8 +98,9 @@ document.addEventListener("DOMContentLoaded", function () {
   createForm.addEventListener("submit", async function (event) {
     event.preventDefault();
     const formData = new FormData(createForm);
+    const takmicenjeId = Date.now();
     const takmicenjeData = {
-      TakmicenjeId: formData.get("takmicenjeId"),
+      TakmicenjeId: takmicenjeId.toString(),
       MestoOdrzavanja: formData.get("mestoOdrzavanja"),
       Naziv: formData.get("naziv"),
       DatumOd: formData.get("datumOd"),
@@ -282,60 +286,12 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch((error) => console.error("Error fetching leaderboard:", error));
 
-    // function renderLeaderboard(leaderboardData) {
-    //   console.log(leaderboardData);
-    //   const leaderboardElement = document.getElementById("leaderboard");
-
-    //   leaderboardElement.innerHTML = "";
-
-    //   for (const entry of leaderboardData) {
-    //     const listItem = document.createElement("li");
-
-    //     getTimById(entry.timId).then((nazivTima) => {
-    //       listItem.textContent = `Naziv tima:${nazivTima} - Broj poena:${entry.poeni}`;
-    //       leaderboardElement.appendChild(listItem);
-    //     });
-    //   }
-    // }
-                //   function renderLeaderboard(leaderboardData) {
-                //   console.log(leaderboardData);
-                //   const leaderboardElement = document.getElementById("leaderboard");
-
-                //   leaderboardElement.innerHTML = "";
-
-                //   for (const entry of leaderboardData) {
-                //     const listItem = document.createElement("li");
-                //     listItem.textContent = `Tim ID: ${entry.timId} - Broj poena: ${entry.poeni}`;
-                //     leaderboardElement.appendChild(listItem);
-                //   }
-                // }
-    // async function renderLeaderboard(leaderboardData) {
-    //   console.log(leaderboardData);
-    //   const leaderboardElement = document.getElementById("leaderboard");
-    
-    //   leaderboardElement.innerHTML = "";
-    
-    //   const teamNames = {};
-    //   await Promise.all(
-    //     leaderboardData.map(async (entry) => {
-    //       const nazivTima = await getTimById(entry.timId);
-    //       teamNames[entry.timId] = nazivTima;
-    //     })
-    //   );
-    
-    //   for (const entry of leaderboardData) {
-    //     const listItem = document.createElement("li");
-    //     const nazivTima = teamNames[entry.timId];
-    //     listItem.textContent = `Naziv tima: ${nazivTima} - Broj poena: ${entry.poeni}`;
-    //     leaderboardElement.appendChild(listItem);
-    //   }
-    // }
     async function renderLeaderboard(leaderboardData) {
       console.log(leaderboardData);
       const leaderboardElement = document.getElementById("leaderboard");
-    
+
       leaderboardElement.innerHTML = "";
-    
+
       const teamNames = {};
       await Promise.all(
         leaderboardData.map(async (entry) => {
@@ -343,38 +299,30 @@ document.addEventListener("DOMContentLoaded", function () {
           teamNames[entry.timId] = nazivTima;
         })
       );
-    
-      // Create the table
+
       const table = document.createElement("table");
       table.classList.add("leaderboard-table");
-    
-      // Create table header
+
       const headerRow = table.insertRow(0);
       const headerCell1 = headerRow.insertCell(0);
       const headerCell2 = headerRow.insertCell(1);
       headerCell1.textContent = "Naziv tima";
       headerCell2.textContent = "Broj poena";
-    
-      // Sort the leaderboard entries based on points (descending order)
-      //leaderboardData.sort((a, b) => b.poeni - a.poeni);
-    
-      // Populate the table rows
+
       for (const entry of leaderboardData) {
         const row = table.insertRow(-1);
-        const nazivTima = teamNames[entry.timId] || 'N/A';
+        const nazivTima = teamNames[entry.timId] || "N/A";
         const cell1 = row.insertCell(0);
         const cell2 = row.insertCell(1);
         cell1.textContent = nazivTima;
         cell2.textContent = entry.poeni;
       }
-    
-      // Append the table to the leaderboard element
+
       leaderboardElement.appendChild(table);
     }
-    
+
     utakmicaForm.appendChild(leaderboard);
   }
-
 
   async function getTimById(id) {
     const response = await fetch(`http://localhost:5064/api/Tim/get-tim/${id}`);
@@ -388,47 +336,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  async function dodajRezultat(takmicenjeId,poeniI,poeniII,utakmicaId) {
+  async function dodajRezultat(takmicenjeId, poeniI, poeniII, utakmicaId) {
     try {
-   //   const poeniI = document.getElementById("poeni1").value;
-   //   const poeniII = document.getElementById("poeni2").value;
-       //console.log(idUtakmice);
+      const timIdsResponse = await fetch(
+        `http://localhost:5064/api/Utakmica/teamIds/${utakmicaId}`
+      );
+      const timIds = await timIdsResponse.json();
 
+      await fetch(
+        `http://localhost:5064/api/Rezultat/createAndAssignToTim/${utakmicaId}/${timIds[0]}/${poeniI}`,
+        {
+          method: "POST",
+        }
+      );
+      await fetch(
+        `http://localhost:5064/api/Rezultat/createAndAssignToTim/${utakmicaId}/${timIds[1]}/${poeniII}`,
+        {
+          method: "POST",
+        }
+      );
 
-      
-        const timIdsResponse = await fetch(
-          `http://localhost:5064/api/Utakmica/teamIds/${utakmicaId}`
-        );
-        const timIds = await timIdsResponse.json();
-
+      for (const timId of timIds) {
         await fetch(
-          `http://localhost:5064/api/Rezultat/createAndAssignToTim/${utakmicaId}/${timIds[0]}/${poeniI}`,
+          `http://localhost:5064/api/LeaderboardUtakmica/${utakmicaId}/${timId}`,
           {
             method: "POST",
           }
         );
-        await fetch(
-          `http://localhost:5064/api/Rezultat/createAndAssignToTim/${utakmicaId}/${timIds[1]}/${poeniII}`,
-          {
-            method: "POST",
-          }
-        );
-
-        for (const timId of timIds) {
-          await fetch(
-            `http://localhost:5064/api/LeaderboardUtakmica/${utakmicaId}/${timId}`,
-            {
-              method: "POST",
-            }
-          );
-          // const increaseWinsResponse = await fetch(
-          //   `http://localhost:5064/api/LeaderboardTakmicenje/${utakmicaId}`,
-          //   {
-          //     method: "POST",
-          //   }
-          // );
-          // const success = await increaseWinsResponse.json();
-          console.log(`Success for match ${utakmicaId}`);
+        console.log(`Success for match ${utakmicaId}`);
       }
       console.log("Rezultati dodati");
     } catch (error) {

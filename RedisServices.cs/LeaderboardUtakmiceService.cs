@@ -38,7 +38,4 @@ public partial class LeaderboardService
         var leaderboardKey = $"leaderboardU:{utakmicaId}";
         return _redisService.GetSortedSetRangeByRankWithScores(leaderboardKey, order: Order.Descending);
     }
-
-
-
 }
