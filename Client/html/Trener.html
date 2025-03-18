@@ -1,115 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treneri</title>
     <link rel="stylesheet" href="stil.css">
 </head>
+
 <body>
 
-<div id="app">
-    <nav>
-        <ul>
-            <li><a href="Takmicenje.html">Takmicenja</a></li>
-            <li><a href="Utakmica.html">Utakmica</a></li>
-            <li><a href="Klub.html">Klub</a></li>
-            <li><a href="Tim.html">Tim</a></li>
-            <li><a href="Sport.html">Sport</a></li>
-            <li><a href="Takmicari.html">Takmicari</a></li>
-            <li><a href="Trener.html">Trener</a></li>
-        </ul>
-    </nav>
-    <h1>Treneri</h1>
-    <div>
-        <table id="listaTrenera"></table>
+    <div id="app">
+        <nav>
+            <ul>
+                <li><a href="Takmicenje.html">Takmicenja</a></li>
+                <!-- <li><a href="Utakmica.html">Utakmica</a></li> -->
+                <li><a href="Klub.html">Klub</a></li>
+                <li><a href="Tim.html">Tim</a></li>
+                <li><a href="Sport.html">Sport</a></li>
+                <li><a href="Takmicari.html">Takmicari</a></li>
+                <li><a href="Trener.html">Trener</a></li>
+            </ul>
+        </nav>
+        <h1>Treneri</h1>
+        <div>
+            <table id="listaTrenera"></table>
+        </div>
+        <div id="row">
+            <div>
+                <h2>Kreiranje trenera</h2>
+                <form id="kreirajForma">
+                    <label for="jmbg">Jmbg trenera:</label>
+                    <input type="text" name="jmbg" required>
+
+                    <label for="ime">Ime:</label>
+                    <input type="text" name="ime" required>
+
+                    <label for="prezime">Prezime:</label>
+                    <input type="text" name="prezime" required>
+
+                    <label for="datumRodjenja">Datum Rodjenjda:</label>
+                    <input type="date" name="datumRodjenja" required>
+
+                    <label for="brojTelefona">Broj Telefona:</label>
+                    <input type="text" name="brojTelefona" required>
+
+                    <label for="pol">Pol:</label>
+                    <input type="text" name="pol" required>
+
+                    <label for="adresa">Adresa:</label>
+                    <input type="text" name="adresa" required>
+
+                    <label for="drzava">Drzava:</label>
+                    <input type="text" name="drzava" required>
+                    <button type="submit">Dodaj</button>
+
+                </form>
+            </div>
+
+
+            <div>
+                <h2>Izmena informacija o treneru</h2>
+                <form id="izmeniForma">
+                    <label for="jmbg">Jmbg trenera:</label>
+                    <input type="text" name="jmbg" required>
+
+                    <label for="adresa">Adresa:</label>
+                    <input type="text" name="adresa" required>
+
+                    <button type="submit">Izmeni</button>
+
+                </form>
+            </div>
+
+
+            <div>
+                <h2>Izbrisi trenera</h2>
+                <form id="izbrisiForma">
+                    <label for="jmbg">Jmbg trenera:</label>
+                    <input type="text" name="jmbg" required>
+
+                    <button type="submit">Brisi</button>
+
+                </form>
+            </div>
+            <section>
+                <div>
+                    <h2>Dodaj Treneru Sport</h2>
+                    <form id="sportForma">
+                        <label for="jmbg">Jmbg trenera:</label>
+                        <input type="text" name="jmbg" required>
+                        <select id="sportSelect" name="sportId">
+
+                        </select>
+                        <button type="submit">Dodaj</button>
+
+                    </form>
+                </div>
+
+                <div>
+                    <h2>Dodaj Trenera u Tim</h2>
+                    <form id="timForma">
+                        <label for="jmbg">Jmbg trenera:</label>
+                        <input type="text" name="jmbg" required>
+                        <select id="timSelect" name="timId">
+                        </select>
+                        <button type="submit">Dodaj</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </div>
-
-
-
- <div>
-    <h2>Kreiranje trenera</h2>
-    <form id="kreirajForma">
-        <label for="jmbg">Jmbg trenera:</label>
-        <input type="text" name="jmbg" required>
-
-        <label for="ime">Ime:</label>
-        <input type="text" name="ime" required>
-
-        <label for="prezime">Prezime:</label>
-        <input type="text" name="prezime" required>
-
-        <label for="datumRodjenja">Datum Rodjenjda:</label>
-        <input type="date" name="datumRodjenja" required>
-
-        <label for="brojTelefona">Broj Telefona:</label>
-        <input type="text" name="brojTelefona" required>
-
-        <label for="pol">Pol:</label>
-        <input type="text" name="pol" required>
-        
-        <label for="adresa">Adresa:</label>
-        <input type="text" name="adresa" required>
-        
-        <label for="drzava">Drzava:</label>
-        <input type="text" name="drzava" required>
-        <button type="submit">Dodaj</button>
-
-    </form>
-</div>
-
-
- <div>
-    <h2>Izmena informacija o treneru</h2>
-    <form id="izmeniForma">
-        <label for="jmbg">Jmbg trenera:</label>
-        <input type="text" name="jmbg" required>
-
-        <label for="adresa">Adresa:</label>
-        <input type="text" name="adresa" required>
-        
-        <button type="submit">Izmeni</button>
-
-    </form>
-</div>
-
-
-  <div>
-    <h2>Izbrisi trenera</h2>
-    <form id="izbrisiForma">
-        <label for="jmbg">Jmbg trenera:</label>
-        <input type="text" name="jmbg" required>
-        
-        <button type="submit">Brisi</button>
-
-    </form>
-</div>
-
-<div>
-    <h2>Dodaj Treneru Sport</h2>
-    <form id="sportForma">
-        <label for="jmbg">Jmbg trenera:</label>
-        <input type="text" name="jmbg" required>
-        <select id="sportSelect" name="sportId">
-
-        </select>
-        <button type="submit">Dodaj</button>
-
-    </form>
-</div>
-
-<div>
-    <h2>Dodaj Trenera u Tim</h2>
-    <form id="timForma">
-        <label for="jmbg">Jmbg trenera:</label>
-        <input type="text" name="jmbg" required>
-        <select id="timSelect" name="timId">
-        </select>
-        <button type="submit">Dodaj</button>
-
-    </form>
-</div>
-</div>
-<script src="../js/Trener.js"></script>
+    <script src="../js/Trener.js"></script>
 </body>
+
 </html>

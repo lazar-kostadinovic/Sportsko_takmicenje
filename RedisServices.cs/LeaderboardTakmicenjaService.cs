@@ -12,11 +12,11 @@ public partial class LeaderboardService
             var topTeamId = leaderboard[0].Element;
 
 
-            var tim = _neo4jService.GetTimByIdAsync(topTeamId);
-            var takmicenje = _neo4jService.PreuzmiIdTakmicenjaZaUtakmicu(utakmicaId);
-            string takmicenjeAsync = await takmicenje;
+            var tim = await _neo4jService.GetTimByIdAsync(topTeamId);
+            var takmicenjeAsync =await  _neo4jService.PreuzmiIdTakmicenjaZaUtakmicu(utakmicaId);
+            // string takmicenjeAsync = await takmicenje;
 
-            if (tim != null && takmicenje != null)
+            if (tim != null && takmicenjeAsync != null)
             {
                 await _neo4jService.PovecajBrojPobeda(topTeamId, takmicenjeAsync);
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sportsko Takmicenje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2148725eb853a99c60468eaa0a0d74664bea8956")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93c03b299859f8ddcf435738d2ad547f7f24383c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sportsko Takmicenje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sportsko Takmicenje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

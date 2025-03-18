@@ -1,21 +1,16 @@
 function getParametarIzUrla(parametar) {
     const urlSearchParams = new URLSearchParams(window.location.search);
     return urlSearchParams.get(parametar);
-  }
+}
 
-  const takmicenjeId = getParametarIzUrla("takmicenjeId");
-  console.log(takmicenjeId);
+const takmicenjeId = getParametarIzUrla("takmicenjeId");
 
-  async function prikaziLeaderboardTakmicenja() {
+async function prikaziLeaderboardTakmicenja() {
     try {
-        const response = await fetch(
-            `http://localhost:5064/api/LeaderboardTakmicenje/${takmicenjeId}`
-        );
+        const response = await fetch(`http://localhost:5064/api/LeaderboardTakmicenje/${takmicenjeId}`);
 
         if (!response.ok) {
-            throw new Error(
-                `Error fetching leaderboard for takmicenje ${takmicenjeId}`
-            );
+            throw new Error(`Greška prilikom preuzimanja leaderboard-a za takmičenje ${takmicenjeId}`);
         }
 
         const data = await response.json();
@@ -44,51 +39,71 @@ function getParametarIzUrla(parametar) {
     }
 }
 
+async function azurirajLeaderboard() {
+    try {
+        const utakmicaIdsResponse = await fetch(`http://localhost:5064/api/Takmicenje/get-utakmiceID/${takmicenjeId}`);
+        if (!utakmicaIdsResponse.ok) throw new Error("Neuspešno preuzimanje utakmica ID-ova.");
 
-  async function azurirajLeaderboard() {
-    const utakmicaIdsResponse = await fetch(
-      `http://localhost:5064/api/Takmicenje/get-utakmiceID/${takmicenjeId}`
-    );
-    const utakmicaIds = await utakmicaIdsResponse.json();
+        const utakmicaIds = await utakmicaIdsResponse.json();
 
-    for (const utakmicaId of utakmicaIds) {
-      const timIdsResponse = await fetch(
-        `http://localhost:5064/api/Utakmica/teamIds/${utakmicaId}`
-      );
-      const timIds = await timIdsResponse.json();
+        for (const utakmicaId of utakmicaIds) {
+            const timIdsResponse = await fetch(`http://localhost:5064/api/Utakmica/teamIds/${utakmicaId}`);
+            if (!timIdsResponse.ok) throw new Error(`Neuspešno preuzimanje tim ID-ova za utakmicu ${utakmicaId}.`);
 
-      for (const timId of timIds) {
-        await fetch(
-          `http://localhost:5064/api/LeaderboardUtakmica/${utakmicaId}/${timId}`,
-          {
-            method: "POST",
-          }
-        );
-      }
+            const timIds = await timIdsResponse.json();
 
-      const increaseWinsResponse = await fetch(
-        `http://localhost:5064/api/LeaderboardTakmicenje/${utakmicaId}`,
-        {
-          method: "POST",
+            for (const timId of timIds) {
+                const leaderboardResponse = await fetch(
+                    `http://localhost:5064/api/LeaderboardUtakmica/${utakmicaId}/${timId}`,
+                    { method: "POST" }
+                );
+
+                if (!leaderboardResponse.ok) {
+                    console.error(`Neuspešno ažuriranje leaderboard-a za tim ${timId} i utakmicu ${utakmicaId}`);
+                }
+            }
+
+            const increaseWinsResponse = await fetch(
+                `http://localhost:5064/api/LeaderboardTakmicenje/${utakmicaId}`,
+                { method: "POST" }
+            );
+            
+            const responseText = await increaseWinsResponse.text();
+            console.log(`Odgovor API-ja za utakmicu ${utakmicaId}:`, responseText);
+            
+
+            if (!increaseWinsResponse.ok) {
+                throw new Error(`Neuspešno povećavanje pobeda za utakmicu ${utakmicaId}.`);
+            }
+
+            console.log(`Uspešno ažuriran leaderboard za utakmicu ${utakmicaId}`);
         }
-      );
-      const success = await increaseWinsResponse.json();
-      console.log(`Success for match ${utakmicaId}: ${success}`);
+    } catch (error) {
+        console.error("Greška prilikom ažuriranja leaderboard-a:", error);
     }
-    console.log("Leaderboard update complete");
-  }
+}
 
-  async function getTimById(id) {
-    const response = await fetch(`http://localhost:5064/api/Tim/get-tim/${id}`);
-    if (response.ok) {
-      const timInfo = await response.json();
+async function getTimById(id) {
+    try {
+        const response = await fetch(`http://localhost:5064/api/Tim/get-tim/${id}`);
+        if (!response.ok) throw new Error(`Neuspešno preuzimanje tima sa ID ${id}.`);
 
-      return timInfo.naziv || null;
-    } else {
-      console.error(`Failed to get Tim by ID ${id}.`);
-      return null;
+        const timInfo = await response.json();
+        return timInfo.naziv || "Nepoznat tim";
+    } catch (error) {
+        console.error(error);
+        return "Nepoznat tim";
     }
-  }
+}
 
-  azurirajLeaderboard();
-  prikaziLeaderboardTakmicenja();
+async function inicijalizujLeaderboard() {
+    if (!takmicenjeId) {
+        console.error("takmicenjeId nije pronađen u URL-u.");
+        return;
+    }
+
+    await azurirajLeaderboard();
+    await prikaziLeaderboardTakmicenja();
+}
+
+inicijalizujLeaderboard();

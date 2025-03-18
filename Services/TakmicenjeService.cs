@@ -23,7 +23,7 @@ public partial class Neo4jService
                 Naziv = record["t"].As<INode>().Properties["Naziv"].As<string>(),
                 DatumOd = record["t"].As<INode>().Properties["DatumOd"].As<string>(),
                 DatumDo = record["t"].As<INode>().Properties["DatumDo"].As<string>(),
-                ListaUtakmica = new List<Utakmica>() 
+                ListaUtakmica = new List<Utakmica>()
             });
         }
     }
@@ -45,7 +45,7 @@ public partial class Neo4jService
                 Naziv = takmicenjeProperties["Naziv"].As<string>(),
                 DatumOd = takmicenjeProperties["DatumOd"].As<string>(),
                 DatumDo = takmicenjeProperties["DatumDo"].As<string>(),
-                ListaUtakmica = new List<Utakmica>() 
+                ListaUtakmica = new List<Utakmica>()
             };
         }
     }
@@ -108,7 +108,7 @@ public partial class Neo4jService
                 Naziv = updatedRecord["t"].As<INode>().Properties["Naziv"].As<string>(),
                 DatumOd = updatedRecord["t"].As<INode>().Properties["DatumOd"].As<string>(),
                 DatumDo = updatedRecord["t"].As<INode>().Properties["DatumDo"].As<string>(),
-                ListaUtakmica = new List<Utakmica>()  
+                ListaUtakmica = new List<Utakmica>()
             };
         }
     }

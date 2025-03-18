@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const teamForm = document.getElementById("teamForm");
   const sportForm = document.getElementById("sportForm");
   const sportSelect = document.getElementById("sportSelect");
+
+  populateUtakmiceList();
   populateTims();
   populateSportsDropdowns(sportSelect);
 
@@ -27,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
     await createUtakmica(utakmicaData);
     createForm.reset();
+    populateUtakmiceList();
   });
 
   async function createUtakmica(utakmicaData) {
@@ -59,6 +62,31 @@ document.addEventListener("DOMContentLoaded", function () {
     );
   }
 
+  async function populateUtakmiceList() {
+    const utakmiceSelects = [
+      document.getElementById("utakmicaSelect"),
+      document.getElementById("utakmicaSelectSport"),
+      document.getElementById("deleteUtakmicaSelect"),
+    ];
+
+    // Preuzmi sve utakmice
+    const response = await fetch(
+      "http://localhost:5064/api/Utakmica/get-all-utakmice"
+    );
+    const utakmice = await response.json();
+
+    // Popuni sve select elemente sa utakmicama
+    utakmiceSelects.forEach((selectElement) => {
+      selectElement.innerHTML = ""; // Očisti prethodne opcije
+      utakmice.forEach((utakmica) => {
+        const option = document.createElement("option");
+        option.value = utakmica.utakmicaId;
+        option.text = utakmica.naziv;
+        selectElement.appendChild(option);
+      });
+    });
+  }
+
   async function getUtakmicaByName(name) {
     const response = await fetch(
       `http://localhost:5064/api/Utakmica/get-utakmica-by-name/${name}`
@@ -73,10 +101,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   deleteForm.addEventListener("submit", async function (event) {
     event.preventDefault();
-    const formData = new FormData(deleteForm);
-    const utakmicaId = formData.get("deleteUtakmicaId");
-    await deleteUtakmica(utakmicaId);
+    const utakmica = {
+      Naziv:
+        deleteUtakmicaSelect.options[deleteUtakmicaSelect.selectedIndex].text,
+    };
+    await deleteUtakmica(utakmica.Naziv);
     deleteForm.reset();
+    populateUtakmiceList();
   });
 
   async function deleteUtakmica(utakmicaId) {
@@ -111,9 +142,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   teamForm.addEventListener("submit", async function (event) {
     event.preventDefault();
-    const formData = new FormData(teamForm);
     const utakmicaData = {
-      Naziv: formData.get("naziv"),
+      Naziv: utakmicaSelect.options[utakmicaSelect.selectedIndex].text,
     };
     const utakmica = await getUtakmicaByName(utakmicaData.Naziv);
     console.log(utakmica);
@@ -158,9 +188,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const btnSport = document.getElementById("submitSport");
   btnSport.addEventListener("click", async function (event) {
     event.preventDefault();
-    const formData = new FormData(sportForm);
     const utakmicaData = {
-      Naziv: formData.get("naziv"),
+      Naziv:
+        utakmicaSelectSport.options[utakmicaSelectSport.selectedIndex].text,
     };
     await updateTimSport(utakmicaData);
     createForm.reset();

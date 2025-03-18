@@ -2,7 +2,7 @@ using Sportsko_Takmicenje;
 using Neo4j.Driver;
 
 public partial class Neo4jService
-{  
+{
     public async Task<IEnumerable<Utakmica>> GetUtakmiceAsync()
     {
         using (var session = _driver.AsyncSession())
@@ -18,13 +18,37 @@ public partial class Neo4jService
                 Naziv = record["u"].As<INode>().Properties["Naziv"].As<string>(),
                 Datum = DateTime.Parse(record["u"].As<INode>().Properties["Datum"].As<string>()),
                 Kolo = record["u"].As<INode>().Properties["Kolo"].As<string>(),
-                Timovi = new List<Tim>(), // Popunite ovo prema potrebi
-                Takmicenje = null, // Popunite ovo prema potrebi
-                Rezultati = new List<Rezultat>(), // Popunite ovo prema potrebi
-                Sport = null // Popunite ovo prema potrebi
+                Timovi = new List<Tim>(),
+                Takmicenje = null,
+                Rezultati = new List<Rezultat>(),
+                Sport = null
             });
         }
     }
+
+    // public async Task<List<Utakmica>> GetUtakmiceAsync()
+    // {
+    //     using (var session = _driver.AsyncSession())
+    //     {
+    //         var query = "MATCH (u:Utakmica) RETURN u";
+    //         var cursor = await session.RunAsync(query);
+    //         var utakmice = new List<Utakmica>();
+
+    //         await foreach (var record in cursor)
+    //         {
+    //             var utakmicaProperties = record?["u"].As<INode>().Properties;
+    //             var utakmica = new Utakmica
+    //             {
+    //                 UtakmicaId = utakmicaProperties["UtakmicaId"].As<string>(),
+    //                 Naziv = utakmicaProperties["Naziv"].As<string>(),
+    //                 Datum = utakmicaProperties["Datum"].As<DateTime>(),
+    //                 Kolo = utakmicaProperties["Kolo"].As<string>(),
+    //             };
+    //             utakmice.Add(utakmica);
+    //         }
+    //         return utakmice;
+    //     }
+    // }
 
     public async Task<Utakmica> GetUtakmicaAsync(string Id)
     {
@@ -101,16 +125,16 @@ public partial class Neo4jService
     public async Task<Utakmica> UpdateUtakmicaAsync(Utakmica utakmica)
     {
         using (var session = _driver.AsyncSession())
-        {        
+        {
             var query = "MATCH (u:Utakmica { UtakmicaId: $utakmicaId }) SET u.Naziv = $naziv, " +
                         "u.Datum = $datum, u.Kolo = $kolo RETURN u";
 
             var parameters = new
             {
-                    utakmicaId = utakmica.UtakmicaId,
-                    naziv = utakmica.Naziv,
-                    datum = utakmica.Datum,
-                    kolo = utakmica.Kolo
+                utakmicaId = utakmica.UtakmicaId,
+                naziv = utakmica.Naziv,
+                datum = utakmica.Datum,
+                kolo = utakmica.Kolo
             };
             var cursor = await session.RunAsync(query, parameters);
             var createdRecord = await cursor.SingleAsync();
@@ -126,16 +150,16 @@ public partial class Neo4jService
     }
 
 
-    public async Task<bool> DeleteUtakmicaAsync(string utakmicaId)
+    public async Task<bool> DeleteUtakmicaAsync(string Naziv)
     {
         using (var session = _driver.AsyncSession())
         {
-            var query = "MATCH (u:Utakmica { UtakmicaId: $utakmicaId }) DETACH DELETE u";
-            var parameters = new { utakmicaId };
+            var query = "MATCH (u:Utakmica { Naziv: $Naziv }) DETACH DELETE u";
+            var parameters = new { Naziv };
 
             var cursor = await session.RunAsync(query, parameters);
-
-            return cursor.ConsumeAsync().Result.Counters.NodesDeleted > 0;
+            var result = await cursor.ConsumeAsync();
+            return result.Counters.NodesDeleted > 0;
         }
     }
 
@@ -267,7 +291,6 @@ public partial class Neo4jService
                 {
                     RezultatId = record["r"].As<INode>().Properties["RezultatId"].As<string>(),
                     Poeni = record["r"].As<INode>().Properties["Poeni"].As<double>(),
-                    // Add other properties of Rezultat as needed
                 }).ToList();
             }
         }
@@ -289,7 +312,7 @@ public partial class Neo4jService
                 var cursor = await session.RunAsync(query, parameters);
 
                 var result = await cursor.SingleAsync();
-                     
+
                 var utakmicaProperties = result?["takmicenje"].As<INode>().Properties;
                 string takmicenjeid = utakmicaProperties["TakmicenjeId"].As<string>();
                 return takmicenjeid;
@@ -324,5 +347,88 @@ public partial class Neo4jService
             return new List<string>();
         }
     }
+    public async Task<IEnumerable<Tim>> GetTimoviForUtakmicaAsync(string utakmicaId)
+    {
+        try
+        {
+            using (var session = _driver.AsyncSession())
+            {
+                var query = @"
+                MATCH (utakmica:Utakmica)-[:UTAKMICA_IMA_TIMOVE]->(tim:Tim)
+                WHERE utakmica.UtakmicaId = $utakmicaId
+                RETURN tim";
 
+                var parameters = new { utakmicaId };
+
+                var cursor = await session.RunAsync(query, parameters);
+                var result = await cursor.ToListAsync();
+
+                return result.Select(record => new Tim
+                {
+                    Id = record["tim"].As<INode>().Properties["Id"].As<string>(),
+                    Naziv = record["tim"].As<INode>().Properties["Naziv"].As<string>(),
+                });
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+            return null;
+        }
+    }
+
+
+    public async Task<IEnumerable<Tim>> GetTeamNamesForUtakmicaAsync(string utakmicaId)
+    {
+        try
+        {
+            using (var session = _driver.AsyncSession())
+            {
+                var query = @"
+                MATCH (utakmica:Utakmica)-[:UTAKMICA_IMA_TIMOVE]->(tim:Tim)
+                WHERE utakmica.UtakmicaId = $utakmicaId
+                RETURN tim";
+
+                var parameters = new { utakmicaId };
+
+                var cursor = await session.RunAsync(query, parameters);
+                var result = await cursor.ToListAsync();
+
+                return result.Select(record => new Tim
+                {
+                    Id = record["tim"].As<INode>().Properties["Id"].As<string>(),
+                    Naziv = record["tim"].As<INode>().Properties["Naziv"].As<string>(),
+                });
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+            return null;
+        }
+    }
+    public async Task<bool> UtakmicaImaRezultatAsync(string utakmicaId)
+    {
+        try
+        {
+            using (var session = _driver.AsyncSession())
+            {
+                var query = @"
+                MATCH (u:Utakmica {UtakmicaId: $utakmicaId})-[rel:UTAKMICA_IMA_REZULTATE|REZULTAT_IMA_UTAKMICA]-(r:Rezultat)
+                RETURN COUNT(r) AS brojRezultata";
+
+                var parameters = new { utakmicaId };
+
+                var cursor = await session.RunAsync(query, parameters);
+                var result = await cursor.SingleAsync();
+
+                return result["brojRezultata"].As<int>() > 0;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Greška prilikom provere rezultata za utakmicu: {ex.Message}");
+            return false;
+        }
+    }
 }

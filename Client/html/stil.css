@@ -7,7 +7,7 @@ body {
 }
 
 #app {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
@@ -75,6 +75,7 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1em;
+    margin-left: 5px;
 }
 
 button {
@@ -121,4 +122,11 @@ table tr:nth-child(even) {
 
 table tr:hover {
     background-color: #e0f0ff;
+}
+#row{
+    display: flex;
+    justify-content: space-between;
+}
+#row > div {
+    margin: 5px;
 }

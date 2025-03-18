@@ -13,23 +13,39 @@ public class UtakmicaController : ControllerBase
         _neo4jService = neo4jService;
     }
 
+    [HttpGet("get-all-utakmice")]
+    public async Task<ActionResult<Utakmica>> GetAllUtakmice()
+    {
+        try
+        {
+
+            var utakmice = await _neo4jService.GetUtakmiceAsync();
+            return Ok(utakmice);
+        }
+        catch (Exception ex)
+        {
+
+            return StatusCode(500, $"Internal Server Error: {ex.Message}");
+        }
+    }
+
     [HttpGet("get-utakmica/{id}")]
     public async Task<ActionResult<Utakmica>> GetUtakmica(string id)
     {
         try
         {
-            
+
             var utakmice = await _neo4jService.GetUtakmicaAsync(id);
             return Ok(utakmice);
         }
         catch (Exception ex)
         {
-            
+
             return StatusCode(500, $"Internal Server Error: {ex.Message}");
         }
     }
 
-    
+
     [HttpGet("get-utakmica-by-name/{name}")]
     public async Task<ActionResult<Utakmica>> GetUtakmicaByName(string name)
     {
@@ -83,16 +99,16 @@ public class UtakmicaController : ControllerBase
             return StatusCode(500, $"Internal Server Error: {ex.Message}");
         }
     }
-     [HttpDelete("delete-utakmica/{id}")]
-    public async Task<ActionResult> DeleteUtakmica(string id)
+    [HttpDelete("delete-utakmica/{naziv}")]
+    public async Task<ActionResult> DeleteUtakmica(string naziv)
     {
         try
         {
-            var isDeleted = await _neo4jService.DeleteUtakmicaAsync(id);
+            var isDeleted = await _neo4jService.DeleteUtakmicaAsync(naziv);
 
             if (!isDeleted)
             {
-                return NotFound($"Utakmica with ID-jem {id} not found");
+                return NotFound($"Utakmica with  {naziv} not found");
             }
 
             return NoContent();
@@ -103,8 +119,8 @@ public class UtakmicaController : ControllerBase
         }
     }
 
-    
-     [HttpPost("dodaj-timove-utakmici/{utakmicaid}/{timid}")]
+
+    [HttpPost("dodaj-timove-utakmici/{utakmicaid}/{timid}")]
     public async Task<ActionResult> AddTimToUtakmica(string utakmicaid, string timid)
     {
         try
@@ -124,8 +140,8 @@ public class UtakmicaController : ControllerBase
         }
     }
 
-    
-     [HttpPost("dodaj-takmicenje-utakmici/{utakmicaid}/{takmicenjeid}")]
+
+    [HttpPost("dodaj-takmicenje-utakmici/{utakmicaid}/{takmicenjeid}")]
     public async Task<ActionResult> AddTakmicenjeToUtakmica(string utakmicaid, string takmicenjeid)
     {
         try
@@ -145,17 +161,23 @@ public class UtakmicaController : ControllerBase
         }
     }
 
-    
-     [HttpPost("dodaj-rezultate-utakmici/{utakmicaid}/{rezultatid}")]
+
+    [HttpPost("dodaj-rezultate-utakmici/{utakmicaid}/{rezultatid}")]
     public async Task<ActionResult> AddRezultatToUtakmica(string utakmicaid, string rezultatid)
     {
         try
         {
+            bool postojiRezultat = await _neo4jService.UtakmicaImaRezultatAsync(utakmicaid);
+            if (postojiRezultat)
+            {
+                return BadRequest("Utakmica već ima rezultat i ne može se dodati novi.");
+            }
+
             var isSuccessful = await _neo4jService.AddRezultatToUtakmicaAsync(utakmicaid, rezultatid);
 
             if (!isSuccessful)
             {
-                return NotFound($"Utakmica or rezultat not found, or the relationship already exists");
+                return NotFound($"Utakmica ili rezultat nisu pronađeni ili je veza već uspostavljena.");
             }
 
             return NoContent();
@@ -167,8 +189,8 @@ public class UtakmicaController : ControllerBase
     }
 
 
-    
-     [HttpPost("dodaj-sport-utakmici/{utakmicaid}/{sportid}")]
+
+    [HttpPost("dodaj-sport-utakmici/{utakmicaid}/{sportid}")]
     public async Task<ActionResult> AddSportToUtakmica(string utakmicaid, string sportid)
     {
         try
@@ -194,7 +216,7 @@ public class UtakmicaController : ControllerBase
         try
         {
             string takmicenjeId = await _neo4jService.PreuzmiIdTakmicenjaZaUtakmicu(utakmicaId);
-            
+
             return Ok(takmicenjeId);
         }
         catch (Exception ex)
@@ -202,7 +224,7 @@ public class UtakmicaController : ControllerBase
             return StatusCode(500, $"Greška pri dohvatanju broja pobeda: {ex.Message}");
         }
     }
-    
+
     [HttpGet("teamIds/{utakmicaId}")]
     public async Task<IActionResult> GetTeamIdsByUtakmicaId(string utakmicaId)
     {
@@ -216,7 +238,35 @@ public class UtakmicaController : ControllerBase
             return StatusCode(500, $"Internal Server Error: {ex.Message}");
         }
     }
-    
+
+    [HttpGet("teamNames/{utakmicaId}")]
+    public async Task<IActionResult> GetTeamNamesByUtakmicaId(string utakmicaId)
+    {
+        try
+        {
+            var teamIds = await _neo4jService.GetTeamNamesForUtakmicaAsync(utakmicaId);
+            return Ok(teamIds);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Internal Server Error: {ex.Message}");
+        }
+    }
+
+    [HttpGet("imaRezultat/{utakmicaId}")]
+    public async Task<ActionResult<bool>> ImaRezultat(string utakmicaId)
+    {
+        try
+        {
+            bool postojiRezultat = await _neo4jService.UtakmicaImaRezultatAsync(utakmicaId);
+            return Ok(postojiRezultat);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Greška na serveru: {ex.Message}");
+        }
+    }
+
 
 
 }
